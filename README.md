@@ -1,1 +1,274 @@
 # homework2
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>抬头标题</title>
+	<!--注释文本-->
+    
+
+     <style>
+      
+          nav {
+                 width: 100%; 
+                 height: 60px;
+                 background-color: black; 
+            } 
+
+              ul {
+         width: 100%;
+         height: 100%;
+         padding: 0 20px;
+             } 
+                ul li {
+         display: inline-block;
+         margin-left: 400px;
+         list-style: none; 
+             } 
+                ul li a {
+          text-decoration:none; 
+          line-height: 60px;
+          color: white;
+              }  
+               ul li:hover a{
+                    color: blue;
+          }  
+       
+
+           #exampel{
+                background-position: right,bottom,left top;
+                background-color:grey;
+                background-origin:content-box;  
+           }
+        
+           div{
+           width:1600px;
+           height: 1500px;
+           box-shadow: 10px 10px 5px #888888;
+           background-position: center;
+
+
+           }
+
+            
+
+            .divcss img{width:300px; 
+            	        height:200px;
+            	    } 
+    
+           .divcss dl{
+           	border:1px solid black;
+	        padding:35px;
+	       background-repeat:no-repeat;
+	       background-position:left;
+	      height:200px;
+	      width:350px;
+           }
+
+
+            table,td,th{
+            	border:1px solid black;
+            }
+
+
+          </style>
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+<nav>
+<ul>
+<li><a href="http://www.baidu.com/">百度导航</a></li>
+<li><a href="http://www.imooc.com/">慕课导航</a></li>
+<li><a href="http://weibo.com/">新浪微博</a></li>
+</ul>
+
+
+
+<div class="header"  style="background:#FFE4E1; color:#000">
+<h1>一级标题</h1>
+<h2>二级标题</h2>
+<p>发布作者 发布时间</p>
+
+
+
+<p>近日，长江、淮河流域出现大范围降雨，洪水肆虐，导致多地受灾严重。有“百湖之城”美称的武汉，更是在一夜之间，造成大水围城的窘迫。</p>
+<p>换行了</p>
+<p>李克强在湖南岳阳内涝严重的白石岭城中村，对当地负责人说，要提前做好预警，确保撤退路线，“人的生命是最宝贵的”。在岳阳长江干堤上，面对34.7米超警戒水位，他强调要确保干堤安全，“千里之堤毁于蚁穴，虽然你只巡一公里，有10米出问题，后面上万人甚至几十万人都要遭殃。”针对当前不少城市出现内涝，李克强认为，“这既有降雨集中的因素，也反映出城市建设历史欠账较多!”<a href="http://www.baidu.com/">此处有一个链接到http://www.baidu.com</a> 他要求一定要把受灾群众妥善安置好，同时要加快棚户区改造和地下综合管廊建设，补上短板，抚平城市“疮疤”，提升地上地下应对灾害的能力。</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490725710877&di=15a003a5b66a1394205a3cf87d68da56&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201607%2F12%2F20160712231702_cHEmk.thumb.700_0.jpeg" alt="some_text">
+<p>7月5日下午，在洞庭湖大堤建新垸柳叶湖堤段，李克强对当地负责人说：“你们在保卫自己的家园，也是在守护祖国大家园，要把保障人民群众生命财产安全顶在头上。”
+
+7月5日晚，湖北汛情加重，武汉一夜被洪水围城。7月6日上午，李克强从岳阳坐高铁赶赴武汉。在青山区长江干堤倒口湖堤段管涌现场，他对参加抢险人员说道：这里正处在中心居民区，你们肩负的责任重大。虽然长江大堤比过去坚固得多，但绝不能掉以轻心。<a href=="http://news.china.com.cn/2016-07/07/content_38832201.htm">此处有一个链接到http://news.china.com.cn/2016-07/07/content_38832201.htm</a> 千里之堤，溃于蚁穴。这次管涌险情给我们很大的警示，现在正处在防汛的关键时期，要坚决堵住隐患和漏洞，加固大堤，积累有益经验，确保险情彻底消除和人民群众生命安全。</p>
+<p>换行了</p>
+<p>在长江龙王庙堤坝上，李克强说，防汛抗洪，基础在“防”，关键在“抗”，核心在“人”。要加强巡查、除险，做到“百密无一疏”，保护近千万江城人民安全。</p>
+</div>
+
+<div style="background:#FFE4E1; color:#000">
+<h1>另一篇文章一级标题</h1>
+<h2>二级标题</h2>
+<p>发布作者 发布时间</p>
+
+
+
+<p>近日，长江、淮河流域出现大范围降雨，洪水肆虐，导致多地受灾严重。有“百湖之城”美称的武汉，更是在一夜之间，造成大水围城的窘迫。</p>
+<p>换行了</p>
+<p>李克强在湖南岳阳内涝严重的白石岭城中村，对当地负责人说，要提前做好预警，确保撤退路线，“人的生命是最宝贵的”。在岳阳长江干堤上，面对34.7米超警戒水位，他强调要确保干堤安全，“千里之堤毁于蚁穴，虽然你只巡一公里，有10米出问题，后面上万人甚至几十万人都要遭殃。”针对当前不少城市出现内涝，李克强认为，“这既有降雨集中的因素，也反映出城市建设历史欠账较多!”<a href="http://www.baidu.com/">此处有一个链接到http://www.baidu.com</a> 他要求一定要把受灾群众妥善安置好，同时要加快棚户区改造和地下综合管廊建设，补上短板，抚平城市“疮疤”，提升地上地下应对灾害的能力。</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490725710877&di=15a003a5b66a1394205a3cf87d68da56&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201607%2F12%2F20160712231702_cHEmk.thumb.700_0.jpeg" alt="some_text">
+
+
+
+<dl>
+<dt>列表项目一</dt>
+<dt>列表项目二</dt>
+<dt>列表项目三</dt>
+</dl>
+
+</div>
+
+
+
+<div class="divcss" style="background:#FFE4E1; color:#000">
+<h1>图片</h1>
+<dl>
+
+<dt>好看的图片</dt>
+<dd><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490725710877&di=15a003a5b66a1394205a3cf87d68da56&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201607%2F12%2F20160712231702_cHEmk.thumb.700_0.jpeg" alt="some_text" alt="some_text"></dd>
+ </dl> 
+
+<dl>
+<dt>好看的图片</dt>
+<dd><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490725710877&di=15a003a5b66a1394205a3cf87d68da56&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201607%2F12%2F20160712231702_cHEmk.thumb.700_0.jpeg" alt="some_text" alt="some_text"></dd>
+</dl> 
+
+
+
+<dl>
+<dt>好看的图片</dt>
+<dd><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490725710877&di=15a003a5b66a1394205a3cf87d68da56&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201607%2F12%2F20160712231702_cHEmk.thumb.700_0.jpeg" alt="some_text" alt="some_text"></dd>
+
+</dl>
+
+<dl>
+<dt>好看的图片</dt>
+<dd><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490725710877&di=15a003a5b66a1394205a3cf87d68da56&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201607%2F12%2F20160712231702_cHEmk.thumb.700_0.jpeg" alt="some_text" alt="some_text"></dd>
+
+</dl>
+
+
+
+
+ </div>
+
+<div style="background:#FFE4E1; color:#000">
+<h1>最后一篇文章的一级标题</h1>
+<h2>文章的二级标题</h2>
+<p>发布作者 发布时间</p>
+
+
+
+<ol>
+<li>排名1</li>
+<li>排名2</li>
+<li>排名3</li>
+</ol>
+
+
+<p>下面是一个表格</p>
+<table border="1">
+	<tr>
+		<td>表头</td>
+		<td>表头</td>
+		<td>表头</td>
+	</tr>
+	<tr>
+		<td>表内容单元格</td>
+		<td>表内容单元格</td>
+		<td><a href="http://www.baidu.com/">操作</a></td>
+	</tr>
+	<tr>
+		<td>表内容单元格</td>
+		<td>表内容单元格</td>
+		<td><a href="http://www.baidu.com/">操作</a></td>
+	</tr>
+	<tr>
+		<td>表内容单元格</td>
+		<td>表内容单元格</td>
+		<td><a href="http://www.baidu.com/">操作</a></td>
+	</tr>
+	<tr>
+		<td>表内容单元格</td>
+		<td>表内容单元格</td>
+		<td><a href="http://www.baidu.com/">操作</a></td>
+	</tr>
+
+
+	<tr>
+		<td>总计</td>
+		<td>1000</td>
+		
+	</tr>
+
+</table>
+</div>
+
+
+<div style="background:#FFE4E1; color:#000">
+	<h1>这里以后是一个测栏，是一个侧栏的标题</h1>
+
+	<h1>侧栏注册窗口标题</h1>
+	<p>请输入邮箱地址:<input type="text" name="email" placeholder="这是一个文本输入框" size="20" maxlength="30"></p>
+	<p>邮箱地址请按要求输入</p>
+	
+	<p>请输入密码<input type="password" name="password"
+	placeholder="这是一个文本输入框" size="20" maxlength="30">
+	    请重复输入密码<input type="password" name="password" placeholder="这是一个文本输入框" size="20" maxlength="30"> </p>
+	    <p>密码请为6-16位英文数字</p>
+
+<br/>
+<br/>
+    
+    <form action="" method="get">
+    性别：
+    <label><input name="Person" type="radio"  value=""/>男 </label>
+    <label><input name="Person" type="radio"  value=""/>女 </label>	
+
+    </form>
+
+   
+	城市：
+	<select name="city">
+	<option value="0">上海</option>
+	<option value="1">四川</option>	
+	</select>
+
+    爱好：
+    <input type="checkbox" name="a[]"/>篮球
+    <input type="checkbox" name="a[]"/>游泳
+    <input type="checkbox" name="a[]"/>滑冰
+
+    个人描述：
+    <textarea rows="3" cols="20">这是一个多行输入框，hhhhhhhhhhhhhhhhhhh</textarea>
+    
+    <br/>
+<br/>
+    <input type="submit" name="提交"/>
+
+</div>
+
+<br/>
+
+
+
+</body>
+</html>
